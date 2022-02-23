@@ -6,8 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JSON API</title>
   </head>
+  <style>
+      .button-area{
+        text-align: center;
+        margin-top: 30px;
+
+      }
+      button{
+          padding: 20px;
+          font-size: 20px;
+          color: #fff;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+          background: #000;
+      }
+      #user{
+        text-align: center;
+      }
+      li{
+          color: red;
+          list-style: none;
+      }
+
+  </style>
   <body>
-    <button onclick="loadUser()">Get a new USER</button>
+      <div class="button-area">
+            <button onclick="loadUser()" class="button">Creat a new USER</button>
+      </div>
     <div id="user">
 
     </div>

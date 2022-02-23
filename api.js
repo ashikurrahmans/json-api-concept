@@ -8,7 +8,7 @@ const randomUsers = data =>{
     const result = data.results
    for(const user of result){
        const userDiv = document.getElementById('user')
-       const pdata = document.createElement('p')
+       const pdata = document.createElement('li')
        console.log(user);
        pdata.innerHTML = `
        <h1> My first Name is : ${user.name.first} ${user.name.last}</h1> 
