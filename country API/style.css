@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: blueviolet;
+}
+#countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.country {
+  border: 2px solid red;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
