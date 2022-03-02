@@ -33,5 +33,7 @@ const displaySeeMore = data =>{
     countryDiv.innerHTML = `
         <h5>${data.name}</h5>
     `
-
+// ekhn jaoar kotha na vai dekhen!
 }
+
+
