@@ -27,6 +27,12 @@ function inputValue() {
   }
 }
 
+inputField.addEventListener("keypress", function (event) {
+  if (event.key == "Enter") {
+    document.getElementById("button-addon2").click();
+  }
+});
+
 // Extracting Data From API - All Product
 
 const phones = (phones) => {
