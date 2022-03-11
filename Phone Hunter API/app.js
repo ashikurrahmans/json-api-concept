@@ -78,7 +78,7 @@ const singleProduct = (data) => {
   singleProduct.innerHTML = "";
   div.innerHTML = `
         <div class="image-area col-sm-12 col-md-4">
-            <img src="${data.image}" alt="" class="w-60">
+            <img src="${data.image}" alt="" class="w-100">
          </div>
          <div class="productDetailsArea col-sm-12 col-md-6">
                 <ul class="list-group">
